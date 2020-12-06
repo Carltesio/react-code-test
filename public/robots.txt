@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+
+/home/carlos/gitHub_repos/ombori/react-code-test/package.json

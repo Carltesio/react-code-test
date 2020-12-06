@@ -1,0 +1,43 @@
+.body {
+    left: 50;
+    background-color: rgb(218, 18, 18);
+    overflow: hidden;
+    align-items: flex;
+  }
+  
+  .orange{
+    --background: rgb(224, 64, 64);
+    --spinner-color: rgb(224, 64, 64);
+  }
+  
+  .circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+  }
+  
+  .pulse {
+    animation: pulse-animation 3s infinite;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+  
+  
+  .master{
+    color:black;
+    float: left;
+  }
+  
+  @media (max-width:900px){
+    .master{
+      display:none
+    }
+  }
